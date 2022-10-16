@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu{
+    margin-top: -50px;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(149, 181, 255) ;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+    position: fixed;
+    z-index:100;
+}
+
+.logo {
+    margin-left: 250px;
+    width: auto;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.menu_text {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: black;
+    top: -50px;
+}
+
+.menu_text2 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    margin-top: 3px;
+    margin-left: 30px;
+    transition: 0.3s ease-in;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: black;
+    height: 100%;
+}
+
+.text2 {
+    position: relative;
+    margin-left: 50px;
+}
+
+.text:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.09);
+    background-color: white;
+}
+
+.text_acc {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: black;
+    top: -50px;
+    margin-top: 13px;
+    margin-left: 3000px;
+    transition: 0.3s ease-in;
+    
+}
+
+
+
+.text_acc:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.09);
+    color: white;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.post4 {
+    margin-top: 100px;
+}
+
+.blog {
+    text-align: center;
+    left: 0;
+    right: 0;
+    height: auto;
+    
+}
+
+.post2 {
+    margin-left: -900px;
+    
+    
+}
+
+.desc4 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    width: 500px;
+    margin-left: 950px;
+    text-align: justify;
+    margin-top: -250px;
+}
+
+.desc3 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    width: 500px;
+    margin-left: -450px;
+    text-align: justify;
+    margin-top: -250px;
+}
+
+.post3 {
+    margin-left: -800px;
+    margin-left: 1000px;
+    margin-top: -500px;
+    display: block;
+}    
+
+.post1 {
+    text-align: left;
+    margin-left: 80px;
+    display: flex;
+    border: 3px solid;
+    padding: 19px 19px 19px 19px;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+
+.post1:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.01);
+    box-shadow: 1px 10px 20px 10px rgb(109, 187, 255);
+}
+
+.post4 {
+    position: relative;
+    
+}
+
+.img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.img2 {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+}
+
+.desc2 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    width: 350px;
+    margin-left: 1020px;
+    text-align: justify;
+}
+
+.desc {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+
+body {
+    background-color:#fff ;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.footer {
+    margin-top:50px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.footer_company {
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    margin-left: -50px;
+    font-size: 15px;
+}
+
+.footer_company_parent {
+    margin-left: -1025px;
+    
+}
+
+.company_desc{
+    font-size: 10px;
+    margin-left: -50px;
+}
+
+.news {
+    text-align: center;
+    margin-top: -67px;
+}
+
+.footer_news {
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    font-size: 15px;
+}
+
+.news_desc {
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    font-size: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin-top: 15px;
+    background-color: gray;
+}
